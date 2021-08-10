@@ -1,4 +1,5 @@
-﻿Imports System
+Imports Microsoft.VisualBasic
+Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Text
@@ -17,9 +18,8 @@ Namespace SlideViewSample
 	''' <summary>
 	''' Interaction logic for MainWindow.xaml
 	''' </summary>
-	Partial Public Class MainWindow
+	Public Partial Class MainWindow
 		Inherits Window
-
 		Public Sub New()
 			InitializeComponent()
 		End Sub
