@@ -6,6 +6,7 @@ Imports System.Data
 Imports System.Linq
 Imports System.Threading.Tasks
 Imports System.Windows
+Imports DevExpress.Xpf.Core
 
 Namespace SlideViewSample
 	''' <summary>
