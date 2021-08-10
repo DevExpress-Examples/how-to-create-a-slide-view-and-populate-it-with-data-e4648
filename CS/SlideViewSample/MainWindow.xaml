@@ -4,8 +4,7 @@
         xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" x:Class="SlideViewSample.MainWindow"
         xmlns:local="clr-namespace:SlideViewSample"
         xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
-        Title="MainWindow" Height="841.85" Width="1423.369"
-        dxc:ThemeManager.ThemeName="Office2013">
+        Title="MainWindow" Height="841.85" Width="1423.369">
     <Window.DataContext>
         <local:EmployeesData/>
     </Window.DataContext>
