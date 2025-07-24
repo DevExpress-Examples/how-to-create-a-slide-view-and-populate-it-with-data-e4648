@@ -10,7 +10,7 @@
 * [DataStorage.cs](./CS/SlideViewSample/DataStorage.cs)
 * **[MainWindow.xaml](./CS/SlideViewSample/MainWindow.xaml)**
 <!-- default file list end -->
-# WPF Slide View - Display a horizontal list of items with slide navigation
+# WPF SlideView - Display a horizontal list of items with slide navigation
 
 
 <p>This example demonstrates how to create a SlideView, bind it to data and use templates to visualize its items. </p>
