@@ -20,7 +20,7 @@ Use the [`SlideView`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.S
 
 ### Data Structure
 
-The data source contains a list of `Employee` objects, which is exposed by the `EmployeesData` view model through the `DataSource` property. The `Employee` class exposes employee-related properties (such as `FullName`, `Photo`, `JobTitle`, `EmailAddress`, and `City`). Images are stored as byte arrays and converted to BitmapImage objects at runtime.
+The data source, which contains a list of `Employee` objects, is exposed by the `EmployeesData` view model through the `DataSource` property. The `Employee` class exposes employee-related properties (such as `FullName`, `Photo`, `JobTitle`, `EmailAddress`, and `City`). Images are stored as byte arrays and converted to BitmapImage objects at runtime.
 
 ```csharp
 public class Employee {
