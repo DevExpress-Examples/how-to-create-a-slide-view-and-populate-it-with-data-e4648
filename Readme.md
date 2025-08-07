@@ -15,13 +15,12 @@ Use the [`SlideView`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.S
 
 - Present detailed information for each data item in a focused, one-at-a-time format.
 - Create a modern, user friendly interface with swipe-style navigation.
-- Customize how each item and its header appear using flexible templates.
 
 ## Implementation Details
 
 ### Data Structure
 
-The data source contains a list of `Employee` objects. Each item exposes properties such as `FullName`, `Photo`, `JobTitle`, `EmailAddress`, and `City`. Images are stored as byte arrays and converted to `BitmapImage` objects at runtime.
+The data source contains a list of `Employee` objects, which is exposed by the `EmployeesData` view model through the `DataSource` property. The `Employee` class exposes employee-related properties (such as `FullName`, `Photo`, `JobTitle`, `EmailAddress`, and `City`). Images are stored as byte arrays and converted to BitmapImage objects at runtime.
 
 ```csharp
 public class Employee {
@@ -47,8 +46,6 @@ public class Employee {
 }
 ```
 
-The `EmployeesData` view model exposes this collection through the `DataSource` property.
-
 ### Templates
 
 The example defines two templates:
@@ -69,8 +66,6 @@ The example defines two templates:
 ```
 
 ### Slide View Configuration
-
-The [`SlideView`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView) control is bound to the data source and configured with both templates:
 
 ```xaml
 <dxwui:SlideView
