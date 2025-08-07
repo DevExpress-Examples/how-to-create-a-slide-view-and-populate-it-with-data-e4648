@@ -51,7 +51,7 @@ public class Employee {
 The following code example defines two templates:
 
 * [`ItemHeaderTemplate`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView.ItemHeaderTemplate) displays the employee’s first name.
-* [`ItemContentTemplate`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView.ItemHeaderTemplate) displays detailed information, including photo, contact details, and job data.
+* [`ItemContentTemplate`](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup.ItemContentTemplate) displays detailed information, including photo, contact details, and job data.
 
 ```xaml
 <DataTemplate x:Key="ItemHeaderTemplate">
