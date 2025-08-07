@@ -13,8 +13,8 @@ This example uses the [`SlideView`](https://docs.devexpress.com/WPF/DevExpress.X
 
 Use the [`SlideView`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView) control when you need to:
 
-- Present detailed information for each data item in a focused, one-at-a-time format.
-- Create a modern, user friendly interface with swipe-style navigation.
+- Display detailed information for data items in a focused, single-item view.
+- Create a modern, user-friendly interface with swipe-style navigation.
 
 ## Implementation Details
 
@@ -48,7 +48,7 @@ public class Employee {
 
 ### Templates
 
-The example defines two templates:
+The following code example defines two templates:
 
 * [`ItemHeaderTemplate`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView.ItemHeaderTemplate) displays the employee’s first name.
 * [`ItemContentTemplate`](https://docs.devexpress.com/WPF/DevExpress.Xpf.WindowsUI.SlideView.ItemHeaderTemplate) displays detailed information, including photo, contact details, and job data.
@@ -92,7 +92,7 @@ The example defines two templates:
 
 * [WPF Accordion Control – Bind to Hierarchical Data Structure](https://github.com/DevExpress-Examples/wpf-accordion-bind-to-hierarchical-data-structure)
 * [WPF MVVM Framework – Use View Models Generated at Compile Time](https://github.com/DevExpress-Examples/wpf-mvvm-framework-view-model-generator)
-* [WPF Dock Layout Manager – Display ViewModels Collection in LayoutGroup](https://github.com/DevExpress-Examples/wpf-docklayoutmanager-display-viewmodels-collection-in-layoutgroup)
+* [WPF Dock Layout Manager - Populate a DockLayoutManager LayoutGroup with the ViewModels Collection](https://github.com/DevExpress-Examples/wpf-docklayoutmanager-display-viewmodels-collection-in-layoutgroup)
 * [WPF Bars – Create a Container for BarItem Links](https://github.com/DevExpress-Examples/wpf-bars-create-baritem-link-container)
 * [WPF PDF Viewer – Customize the Integrated Bar's Commands](https://github.com/DevExpress-Examples/wpf-pdf-viewer-customize-bar-manager)
 
